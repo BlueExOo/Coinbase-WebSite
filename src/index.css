@@ -31,6 +31,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background);
   color: var(--primary);
+  overflow-x: hidden;
 }
 
 ul>li {
@@ -128,7 +129,6 @@ p {
 
 ::-webkit-scrollbar {
   width: 6px;
-  height: 6px;
   background-color: var(--background);
 }
 
